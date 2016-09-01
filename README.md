@@ -1,3 +1,3 @@
 # ASE-Lab-Assignments
 
-Wiki page link : https://github.com/Achu0015/ASE-Lab-Assignments/wiki
+
