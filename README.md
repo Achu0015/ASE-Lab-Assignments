@@ -1,2 +1,3 @@
 # ASE-Lab-Assignments
-Lab assignments recorded
+
+Wiki page link : https://github.com/Achu0015/ASE-Lab-Assignments/wiki
