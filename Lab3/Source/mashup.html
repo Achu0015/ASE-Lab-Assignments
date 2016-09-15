@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Mashup Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="key.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+</head>
+<body background="bg2.jpg">
+<h1>Welcome to Image detection and Text to Speech</h1>
+<br>
+<div>
+    <h2>Enter the image URL:</h2> <input type="text" id="imgurl" placeholder="Image URL" required/>
+    <button onclick="run(document.getElementById('imgurl').value)">Hit to Read!</button>
+    <br>
+    <img src="ts.png" style="width:60px;height:60px">
+
+</div>
+<div id="tags"></div>
+<input onclick='speak();' type='button' value='Play' />
+<br>
+<br>
+<div>
+    <a href="OAuth.html"> <button onclick="signOut()">Logout</button></a>
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+    </script>
+</div>
+
+</body>
+</html>

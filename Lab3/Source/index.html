@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/knowledge/kgsearch/widget/1.0/widget.min.css">
+    <style>
+        .kge-search-picker {
+            width: 30px;
+        }
+    </style>
+    <script type="text/javascript" src="gkgwidget.js"></script>
+    <script type="text/javascript">
+        KGSearchWidget('AIzaSyCVnCMLIf2PKP4y9sw39S_RzgU1zx_Uves', document.getElementById("myinput"), {});
+    </script>
+
+    <a href="OAuth.html" onclick="signOut();">Sign out</a>
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+    </script>
+
+</head>
+<body>
+<input type="text" id="myinput">
+<button> </button>
+</body>
+</html>
