@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ACHU\Downloads\FlickrSearch-master\FlickrSearch-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="54b7c57e217cb577f80457a718e2803ef849a9c8">
+        <dex dex="C:\Users\ACHU\Downloads\FlickrSearch-master\FlickrSearch-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27a085ac03ab543c1cf5006642c33669f5a717dc\classes.dex" />
+    </item>
+
+</items>
