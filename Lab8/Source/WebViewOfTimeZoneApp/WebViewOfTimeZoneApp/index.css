@@ -1,0 +1,22 @@
+form{
+    padding-left:20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    color: #761c19;
+    font-size: medium;
+}
+body{
+    background-image: url("time-wallpaper1.jpg");
+}
+.btn{
+    width: 10%;
+    height: 20%;
+}
+.centered{
+    text-align: center;
+}
+.container{
+    padding-left:10%;
+    padding-right:10%;
+    font-size: large;
+}

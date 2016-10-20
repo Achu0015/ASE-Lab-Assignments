@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Convert TIME</title>
+    <div class="container">
+        <div class="bg-primary" style="text-align: center;font-family: Arial; color: white"><h1>CONVERT TIME</h1></div>
+    </div>
+
+</head>
+<body ng-app=calculate>
+<div ng-controller=calculatectrl>
+    <form>
+
+
+
+        <div class="form-group">
+            <label style="color: white">Give the count for days here : </label>
+            <br><br>
+            <input type="number" class="form-control" id="days" ng-model="h"/>
+           <!-- <button onsubmit="convert()">convert</button>-->
+            <!--<button class="btn btn-success" ="convert()" style="background-color:#E65100;">CONVERT</button>-->
+            <br><br>
+            <div style="background-color: white">
+                <p ng-model=cal>
+            <div class="bg-danger">Days:{{cal.Days}}</div><br>
+            <div class="bg-success">Minutes:&nbsp&nbsp{{cal.Minutes}}</div><br>
+            <div class="bg-warning">Hours:&nbsp&nbsp{{cal.Hours}}</div><br>
+            <div class="bg-warning">Seconds:&nbsp&nbsp{{cal.Seconds}}</div><br>
+                </p>
+            </div>
+            <!-- <input type="number" class="form-control"placeholder="Get value in hours here " id="hours" ng-model="h"/>
+             <br><br>
+             <input type="number" class="form-control"placeholder="Get value in seconds here " id="sec" ng-model="h"/>
+             <br><br>
+             <input type="number" class="form-control"placeholder="Get value in minutes here " id="minutes" ng-model="h"/>
+ -->
+        </div>
+        <!--<div class="form-group"> <label for="weight"></label>-->
+            <!--<input type="number" class="form-control" placeholder="Enter Weight in kg" id="weight" ng-model="w">-->
+        <!--</div>-->
+        <br><br>
+    </form>
+    <!--<div class="centered">-->
+        <!--<button class="btn btn-success" ng-click="bmi()" style="background-color: red;">CONVERT</button>-->
+    <!--</div>-->
+    <!--<div class="container">-->
+        <!--<p ng-model=cal>-->
+            <!--<br><br>-->
+
+        <!--<div class="bg-danger">Your BMI&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp{{cal.BMI}} kg/m<sup>2</sup></div><br>-->
+        <!--<div class="bg-success">Your Ideal Weight:&nbsp&nbsp{{cal.Ideal}} kg</div><br>-->
+        <!--<div class="bg-warning">Your Weight Status:&nbsp&nbsp{{cal.Status}}</div><br>-->
+
+
+        <!--</p>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
